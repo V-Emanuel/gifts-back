@@ -5,6 +5,7 @@ export default class ProductsService {
     refactorProduct.push({
       id: product.id,
       shop_id: product.shop_id,
+      variant_id: product.product_default_variant.id,
       title: product.title,
       price: product.product_default_variant.price,
       compare_at_price: product.product_default_variant.compare_at_price,
@@ -25,6 +26,7 @@ export default class ProductsService {
       refactorProducts.push({
         id: product.id,
         shop_id: product.shop_id,
+        variant_id: product.product_default_variant.id,
         title: product.title,
         price: product.product_default_variant.price,
         compare_at_price: product.product_default_variant.compare_at_price,

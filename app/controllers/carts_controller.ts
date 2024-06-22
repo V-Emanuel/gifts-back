@@ -17,7 +17,7 @@ export default class CartsController {
         note: "Test Cart",
         discount_code: "Discount",
         discount_category: "manual",
-        line_items: body.line_items,
+        line_items: body,
       },
     };
 

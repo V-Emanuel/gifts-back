@@ -19,7 +19,7 @@ export default class OrdersController {
       order_discount: 0,
       products_total_amount: 1,
       total_amount: 1,
-      payment_status: "4",
+      payment_status: 4,
       line_items: body.body.line_items,
       shipping_address: {
         address1: "Address 1",
@@ -30,7 +30,7 @@ export default class OrdersController {
         neighborhood: "neighborhood",
         city: "city",
         company: "company",
-        first_name: "Nome Completo",
+        first_name: "Teste Completo",
         last_name: " ",
         phone: "+5118651268",
         province: "Rio de Janeiro",
