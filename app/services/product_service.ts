@@ -35,6 +35,7 @@ export default class ProductsService {
         url_image: product.images.map((image: any) =>
           image.url.replace("/", "")
         ),
+        description: product.description,
       });
     });
 
