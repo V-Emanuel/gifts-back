@@ -33,7 +33,7 @@ export default class ProductsService {
         price_num: product.price,
         compare_num: product.compare_at_price,
         url_image: product.images.map((image: any) =>
-          image.url.replace("/", "")
+          image.url.replace("/", "").replace("https:/a", "https://a")
         ),
         description: product.description,
       });
